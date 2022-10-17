@@ -65,20 +65,21 @@ body{
   width: 100%;
   z-index: 10;
 }
-.header-block{
-  display: flex;justify-content: space-between;
+.header-cite__container{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 41.5px 0;
 }
-.header-logo-block{
+.header-cite__logo{
   width: 236px;
 }
-.header-list{
+.header-cite__list{
   width: 283px;
   display: flex;
   justify-content: space-between;
 }
-.header-link{
+.header-cite__link{
   font-weight: 700;
 font-size: 12px;
 line-height: 15px;
@@ -89,25 +90,26 @@ color: #83888F;
 transition: all .4s ease; 
 border-radius: 5px;
 }
-.header-link:hover{
+.header-cite__link:hover{
   color: #333D4B;
 }
-.header-link:active{
+.header-cite__link:active{
  background-color: #9c9c9c;
   color: #0000ff;
 }
 /* hero */
 .hero{
   margin-top: 113.08px;
+  margin-bottom: 136px;
 }
-.hero-text-block{
+.hero__text-block{
   padding: 117px 0 85px 116px;
-  background-image: url('../img/hero-bgi.svg');
+  background-image: url('../img/hero-bgi.jpg');
   background-repeat: no-repeat;
-  background-position: 0 -106px;
-  background-size: cover;
+  background-color: #A2A2A2;
+border-radius: 10px;
 }
-.hero-title{
+.hero__title{
   width: 493px;
   font-family: 'Fraunces 9pt';
 font-weight: 900;
@@ -116,7 +118,7 @@ line-height: 72px;
 color: #FEFCF7;
   margin-bottom: 32px;
 }
-.hero-text{
+.hero__text{
   width: 400px;
 margin-bottom: 56px;
 font-weight: 400;
@@ -125,7 +127,7 @@ line-height: 26px;
 color: #FEFCF7;
 opacity: 0.8
 }
-.hero-link{
+.hero__link{
   font-family: 'Fraunces 9pt';
   font-weight: 900;
 font-size: 18px;
@@ -137,11 +139,11 @@ border-radius: 6px;
 padding: 15px 31px;
 transition: all .4s linear;
 }
-.hero-link:hover{
+.hero__link:hover{
   background-color: #38b0fb;
   color: #dbdada;
 }
-.hero-link:active{
+.hero__link:active{
   background-color: rgb(8, 38, 231);
 }
 
